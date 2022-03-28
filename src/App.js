@@ -1,12 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./components/navbar";
+import FirstLook from "./components/firstlook";
+import Cards from "./components/cards";
+import Freelancers from "./components/freelancer";
+import Designs from "./components/designs";
+import Categorys from "./components/categorys";
+import PortfolioSection from "./components/portfolio-section";
+import Subcription from "./components/subsciption";
+import Footer from "./components/footer";
+import Reserved from "./components/reserved";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Bugra Bolat</h1>
-      <h2>Web  developer</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum saepe tenetur nam sapiente hic quae cupiditate? Eaque est nam, modi ducimus velit sunt reprehenderit, ratione aliquam corrupti a possimus soluta?</p>
+    <div>
+      <div className="header">
+      <Navbar title="Merhaba" />
+      <FirstLook />
+      </div>
+      <Cards />
+      <Freelancers />
+      <div className="container" id="design">
+      <Designs />
+      <Categorys categoryName="Category" />
+      <PortfolioSection />
+      <Subcription/>
+      <Footer/>
+      <Reserved />
+      </div>
     </div>
   );
 }
