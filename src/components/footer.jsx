@@ -44,7 +44,7 @@ function Footer(props) {
                                         Kenya
                                     </li>
                                     <li> <img src={footer6} alt="footer6" />
-                                        +2547000000000
+                                        +5123 32 34
                                     </li>
                                     <li>
                                         <img src={footer7} alt="footer7" />
